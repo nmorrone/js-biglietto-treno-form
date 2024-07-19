@@ -22,7 +22,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <h3>Calcola il Prezzo del tuo Biglietto</h3>
-                    <form>
+                    <form id="ticketform">
                         <div class="mb-3">
                             <label for="distance" class="form-label">Quanti Km devi percorrere?</label>
                             <input type="number" class="form-control" id="distance" aria-describedby="distanceHelp">
@@ -32,11 +32,11 @@
                             <label for="age" class="form-label">Quanti anni hai?</label>
                             <input type="number" class="form-control" id="age">
                         </div>
-                        <button type="submit" class="btn btn-primary">Calcola Prezzo</button>
+                        <button id="submit" type="submit" class="btn btn-primary">Calcola Prezzo</button>
                     </form>
                     <div class="mt-4">
                         <h6>Il prezzo del tuo biglietto è:</h6>
-                        <p id=""></p>
+                        <p id="biglietto"></p>
                     </div>
 
 
