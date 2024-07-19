@@ -36,7 +36,7 @@ formElement.addEventListener('submit', function (event) {
 
     //definisco la variabile del prezzo senza sconto
 
-    const ticketPrice = ticketDraft
+    let ticketPrice = ticketDraft
 
     /*inserisco le condidizioni di scontistica sul biglietto
     in base all'età inserita dall'utente nel form */
